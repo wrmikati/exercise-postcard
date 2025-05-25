@@ -1,0 +1,137 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unica+One&display=swap");
+
+/* Initialize document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 50px;
+	background: #121212;
+}
+
+/* Set fonts */
+h1 {
+	font-family: "Comfortaa", sans-serif;
+	color: #6796bb;
+}
+
+.signature {
+	font-family: "Caveat";
+	color: #7bcaf7;
+}
+
+.signature h2 {
+	font-size: 22px;
+}
+
+p {
+	font-family: "Montserrat";
+	font-size: 16px;
+	color: #c5ddf4;
+}
+
+input,
+input::placeholder {
+	font-size: 18px;
+}
+
+input {
+	color: #c5ddf4;
+}
+
+input::placeholder {
+	color: #80bff0;
+}
+
+button,
+input {
+	font-family: "Unica One";
+}
+
+button {
+	font-size: 20px;
+}
+
+/* Define main postcard layout */
+.postcard {
+	background: #3a4856;
+	color: #e3eeb2;
+	width: 400px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+/* Postcard Header */
+.postcard-header {
+	margin-top: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.postcard-header img {
+	height: 50px;
+}
+
+/* Postcard Body */
+.postcard-body {
+	display: flex;
+	gap: 20px;
+	background: #5770897f;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.body-right {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+input {
+	background: none;
+	border: none;
+	border-bottom: 2px solid #9dadbc;
+	padding: 2px;
+}
+
+input:hover {
+	filter: brightness(1.2);
+}
+
+.signature {
+	height: 100%;
+	align-content: end;
+}
+
+/* Postcard Footer */
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background: #577089;
+	padding: 10px;
+	color: #c5ddf4;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover,
+a:hover {
+	filter: brightness(1.1);
+}
+
+button:active,
+a:active {
+	filter: brightness(1.2);
+}
